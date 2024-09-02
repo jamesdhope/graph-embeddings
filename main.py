@@ -48,5 +48,7 @@ nx.draw_networkx_labels(G, pos, {i: f"Sentence {i+1}" for i in G.nodes}, font_si
 edge_labels = {(i, j): f"{similarity_matrix[i][j]:.2f}" for i, j in G.edges}
 nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_color='red')
 
+plt.savefig("sentence_similarity_graph.png", dpi=300, bbox_inches='tight')
+
 plt.title("Sentence Similarity Graph", fontsize=16)
 plt.show()

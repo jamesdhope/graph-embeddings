@@ -41,6 +41,8 @@ This will generate sentence embeddings, create a similarity graph, and display a
 
 ## Visualization
 
+![Sentence Similarity Graph](sentence_similarity_graph.png)
+
 The graph visualization shows:
 
 - **Nodes**: Each node represents a sentence.
