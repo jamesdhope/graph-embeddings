@@ -58,4 +58,5 @@ The graph visualization shows:
 - **node2vec**: For generating graph embeddings.
 - **matplotlib**: For visualizing the graph.
 
-
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
